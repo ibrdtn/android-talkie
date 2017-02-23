@@ -31,6 +31,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.media.AudioManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
@@ -120,6 +121,13 @@ public class TalkieActivity extends FragmentActivity {
                 // finish the activity
                 finish();
                 return true;
+            }
+
+            case R.id.itemPrivacyPolicy:
+            {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(this.getString(R.string.privacy_policy_url)));
+                startActivity(i);
             }
         }
         return super.onOptionsItemSelected(item);
