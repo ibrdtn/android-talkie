@@ -34,6 +34,7 @@
     
     <string name="preferences">Preferences</string>
     <string name="headset_mode">Headset Mode</string>
+    <string name="privacy_policy">Privacy Policy</string>
     <string name="pref_notification_settings">Notifications</string>
     <string name="pref_vibrate_on_message">Vibrate</string>
     <string name="pref_vibrate_on_message_desc">Vibrate on message reception</string>
@@ -49,4 +50,6 @@
 	<string name="pref_notification_desc">Show notification if a message is received.</string>
 	
 	<string name="talkie_message_notification_sound_title">Talkie message</string>
+
+    <string name="privacy_policy_url">https://github.com/ibrdtn/android-talkie/wiki/Privacy-policy</string>
 </resources>
